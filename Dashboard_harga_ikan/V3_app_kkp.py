@@ -40,7 +40,7 @@ st.markdown("""
 # --- LOAD DATA ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv('Data_Ikan_Dashboard_Ready.csv')
+    df = pd.read_csv('Dashboard_harga_ikan/Data_Ikan_Dashboard_Ready.csv')
     df['date'] = pd.to_datetime(df['date'])
     df['bulan_tahun'] = df['date'].dt.strftime('%Y-%m')
     return df
@@ -317,4 +317,5 @@ st.caption(
     f"Data terakhir: {df['date'].max().strftime('%d %b %Y')} • "
     f"Dashboard update: {datetime.now().strftime('%d %B %Y %H:%M WIB')} • "
     "Untuk keperluan analisis & presentasi"
+
 )

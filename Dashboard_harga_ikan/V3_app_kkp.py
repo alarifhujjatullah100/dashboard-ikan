@@ -59,7 +59,7 @@ with col_title:
     st.markdown("""
         <div class="header-style">
             <h2 style="margin: 0;">SISTEM INFORMASI HARGA PASAR IKAN</h2>
-            <p style="margin: 8px 0 0; opacity: 0.9;">Market Intelligence - Kementerian Kelautan dan Perikanan RI</p>
+            <p style="margin: 8px 0 0; opacity: 0.9;">Pusat Kebijakan Strategis</p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -319,4 +319,5 @@ st.caption(
     "Untuk keperluan analisis & presentasi"
 
 )
+
 

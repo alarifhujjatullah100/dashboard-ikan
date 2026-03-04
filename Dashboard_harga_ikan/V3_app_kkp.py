@@ -54,7 +54,7 @@ except FileNotFoundError:
 # --- HEADER ---
 col_logo, col_title = st.columns([1, 6])
 with col_logo:
-    st.image("Dashboard_harga_ikan/images/Logo KKP Round - Teks Putih.png", width=120)
+    st.image("Dashboard_harga_ikan/images/Logo KKP Round - Teks Putih.png", width=360)
 with col_title:
     st.markdown("""
         <div class="header-style">
@@ -319,6 +319,7 @@ st.caption(
     "Untuk keperluan analisis & presentasi"
 
 )
+
 
 
 
